@@ -1,0 +1,16 @@
+# Local planning files used during repository preparation
+task_plan.md
+findings.md
+progress.md
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+*.key
