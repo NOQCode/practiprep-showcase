@@ -83,6 +83,8 @@ The production app is built with a modern React Native and Expo stack. This show
 
 No production code, API keys, backend functions, database schema, or proprietary content are published here.
 
+For GitHub language detection and a clearer public portfolio signal, the repository also includes [public-stack.ts](src/public-stack.ts). This file is descriptive metadata only, not production app code.
+
 ## Repository Scope
 
 This repository exists to present the product publicly while protecting the core intellectual property of the app.
