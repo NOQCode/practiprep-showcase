@@ -63,17 +63,23 @@ The production app contains the actual learning structure and proprietary questi
 6. Track learning progress through profile, statistics, and achievements.
 7. Upgrade to Premium for the complete learning experience.
 
-## Technology Overview
+## Technology Stack
 
-The production app is built with a modern React Native and Expo stack. This showcase intentionally only describes the architecture at a high level.
+The production app is built with a modern React Native and Expo stack. This showcase intentionally lists technologies by category without publishing source code, configuration values, schemas, prompts, or backend implementation details.
 
-- React Native and Expo for cross-platform mobile development
-- TypeScript for application logic
-- Supabase for authentication, database-backed user features, and server-side functions
-- RevenueCat for subscription entitlement management
-- Apple App Store in-app purchases for iOS monetization
-- Anthropic Claude API through protected backend functions for AI learning support
-- Local persistence for device-level learning state
+| Area | Technologies |
+|---|---|
+| Mobile App | React Native, Expo, Expo Router |
+| Language | TypeScript |
+| State & App Data | Zustand, local persistence, SQLite-based learning state |
+| Backend Platform | Supabase, PostgreSQL, Supabase Auth |
+| Server-Side Workflows | Supabase Edge Functions |
+| AI Layer | Anthropic Claude API through protected backend functions |
+| Subscriptions | RevenueCat, Apple In-App Purchases, App Store Connect |
+| UI & Motion | React Native Reanimated, React Native SVG, Lucide icons |
+| Device Features | Speech recognition, microphone access, local notifications, sharing |
+| Build & Release | EAS Build, TestFlight, App Store Connect |
+| Quality & Compliance | TypeScript checks, linting, privacy documentation, account deletion flow |
 
 No production code, API keys, backend functions, database schema, or proprietary content are published here.
 
